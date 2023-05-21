@@ -207,7 +207,7 @@ if st.session_state['unlocked'] == True:
 
 		st.image("summary_heatmap.jpg")
 
-		st.info('The visualization above depicts a heatmap of all bowled and batted balls during the practice session. The blue dots depict all the bouncing points, the green points depict the hitting point by the batsman and the red points missed bats. On the left, projections of these points for both the pitch (aerial view) and the batting area (frontal view) are shown. The different shades of green depict the different bouncing areas (Yorker, Full, Good, Short)', icon="ℹ️")
+		st.info('The visualization above depicts a heatmap of all bowled and batted balls during the practice session. The blue dots depict all the bouncing points, the green points depict the hitting point by the batsman and the red points missed bats. On the left, projections of these points for both the pitch (aerial view) and the batting area (frontal view) are shown. The different shades of green depict the different bouncing areas (Yorker, Full, Good, Short)')
 
 
 		st.markdown("""---""")
@@ -243,7 +243,7 @@ if st.session_state['unlocked'] == True:
 		st.markdown("<h5 style='text-align: center; color:white;'> Analysis by run</h5>", unsafe_allow_html=True)
 		st.markdown("""---""") 
 
-		st.info('Below you can select each bowl / bat  executed during the practice session. To visualize a run select the corresponding Run_ID in the dropdown menu below. Depending on the internet connection, it may take up to a few seconds to load the scene. You can sort the table by attributes by clicking on the corresponding header in the table.', icon="ℹ️")
+		st.info('Below you can select each bowl / bat  executed during the practice session. To visualize a run select the corresponding Run_ID in the dropdown menu below. Depending on the internet connection, it may take up to a few seconds to load the scene. You can sort the table by attributes by clicking on the corresponding header in the table.')
 		st.markdown("""---""") 
 
 		df_logs = pd.read_excel('data.xlsx')
