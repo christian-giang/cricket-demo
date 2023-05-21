@@ -141,7 +141,7 @@ def list_preds(df_pred, df_accuracy, pred_choice):
 if 'unlocked' not in st.session_state:
     st.session_state['unlocked'] = False
 
-correct_pass = "UFC-P!2022"
+correct_pass = "c!q-cr!ck3t2023"
 
 if st.session_state['unlocked'] == False:
 	text_input_container1 = st.empty()
